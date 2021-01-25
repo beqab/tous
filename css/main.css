@@ -299,11 +299,18 @@
   .psychology-container,
   .psychology-container form .motivational-description {
     display: block;
+    margin-top: 40px;
+  }
+
+  .psychology-container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .psychology-container__right {
     min-height: 300px;
     margin-top: 15px;
+    overflow: auto;
   }
 
   .psychology-container form .motivational-description .button {
