@@ -220,6 +220,7 @@
   resize: none;
   padding: 15px;
   border: none;
+  box-sizing: border-box;
 }
 .psychology-container__right {
   flex: 0 0 33%;
@@ -228,6 +229,7 @@
   padding: 20px;
   box-shadow: 0 0 11px #00000052;
   max-height: 446px;
+  box-sizing: border-box;
 }
 .psychology-container__right .title-of-criterias-div {
   padding-bottom: 15px;
@@ -338,6 +340,7 @@
 
   .psychology__text {
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .comoon_box .img {
